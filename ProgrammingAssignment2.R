@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This function returns the inverse cache of a matrix
 
-## Write a short comment describing this function
+## makeCacheMatrix function creates a special matrix that if invertible 
+## will return the environment of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve function returns the caches inverse of the matrix x
 
 cacheSolve <- function(x, ...) {
   m <- x$getInverse()
